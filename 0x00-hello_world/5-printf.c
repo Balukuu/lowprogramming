@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - prints a piece of art with proper grammar
- *
- * Return: 0 (Success)
+ * main - Print a string
+ * Description: use printf
+ * Return: 0
  */
+
 int main(void)
 {
-    printf("with proper grammar, but the outcome is a piece of art,\n");
-    return (0);
+	printf("%s", "with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }
-
